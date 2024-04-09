@@ -22,6 +22,8 @@ def test_doc() -> None:
                     r"(?:classification|regression)\.extra\.XGB.*",
                     # BorutaPy package
                     r"transformation\.extra\.BorutaDF",
+                    # MrmrDF class
+                    r"transformation\.extra\.MrmrDF",
                     # ARFS package
                     r"transformation\.extra\.BoostAGrootaDF",
                     r"transformation\.extra\.GrootCVDF",
